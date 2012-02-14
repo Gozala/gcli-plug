@@ -1,0 +1,32 @@
+{
+  "name": "gcli-plug",
+  "id": "gcli-plug",
+  "version": "0.0.1",
+  "description": "Adapter for GCLI",
+  "keywords": [ "gcli-plug" ],
+  "author": "Irakli Gozalishvili <rfobic@gmail.com> (http://jeditoolkit.com)",
+  "homepage": "https://github.com/Gozala/gcli-plug",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Gozala/gcli-plug.git",
+    "web": "https://github.com/Gozala/gcli-plug"
+  },
+  "bugs": {
+    "url": "http://github.com/Gozala/gcli-plug/issues/"
+  },
+  "devDependencies": {
+    "test": ">=0.4.4",
+    "repl-utils": ">=1.0.0"
+  },
+  "engines": {
+    "node": ">=0.4.x"
+  },
+  "scripts": {
+    "test": "node tests/test-all.js",
+    "repl": "node node_modules/repl-utils"
+  },
+  "licenses": [{
+    "type" : "MIT",
+    "url" : "http://jeditoolkit.com/LICENSE"
+  }]
+}
