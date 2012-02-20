@@ -4,7 +4,3 @@
 
 [gcli]:https://github.com/mozilla/gcli
 [sky-edit]:https://github.com/Gozala/sky-edit
-
-## Install
-
-    npm install gcli-plug
